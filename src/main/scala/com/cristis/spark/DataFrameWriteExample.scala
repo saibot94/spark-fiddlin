@@ -7,5 +7,4 @@ object DataFrameWriteExample {
   def main(args: Array[String]): Unit = {
     println("Gonna do stuff here")
   }
-
 }
