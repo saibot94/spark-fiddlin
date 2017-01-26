@@ -16,7 +16,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 /**
   * Created by cristian.schuszter on 2017-01-26.
   */
-object DataFrameExample {
+object DataFrameReadExample {
   def main(args: Array[String]) : Unit = {
     val conf = new SparkConf().setAppName("spark-example").setMaster("local[2]")
     val sc = new SparkContext(conf)
