@@ -1,5 +1,7 @@
 package com.cristis.spark
 
+import org.junit.runner.RunWith
+import org.scalatest.junit.JUnitRunner
 import org.scalatest.{Matchers, WordSpec}
 
 /** ***********************************************************************
@@ -15,6 +17,7 @@ import org.scalatest.{Matchers, WordSpec}
 /**
   * Created by cristian.schuszter on 2017-01-26.
   */
+@RunWith(classOf[JUnitRunner])
 class ExecutorSpec extends WordSpec with Matchers {
   "ExecutorSpec.buildStr" when {
     "passed a valid int" should {
