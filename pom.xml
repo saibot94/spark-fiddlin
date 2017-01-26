@@ -61,7 +61,7 @@
                     <!-- MainClass in mainfest make a executable jar -->
                     <archive>
                         <manifest>
-                            <mainClass>com.cristis.spark.Hello</mainClass>
+                            <mainClass>com.cristis.spark.DataFrameExample</mainClass>
                         </manifest>
                     </archive>
 
